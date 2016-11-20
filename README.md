@@ -9,7 +9,7 @@ docker run -it --rm
 -v /run/user/$UID/pulse/native:/var/run/pulse/native 
 -v /tmp/.X11-unix:/tmp/.X11-unix
 -v chrome:/chrome/.config/chromium
--e DISPLAY=unix$DISPLAY whoo/docker-chrome
+-e DISPLAY=unix$DISPLAY who0/docker-chrome
 ```
 
 Pulse socket should be exposed inside docker with *PULSE_SERVER=unix:/var/run/pulse/native*
