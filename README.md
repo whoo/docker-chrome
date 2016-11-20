@@ -19,4 +19,4 @@ You can add extra storage to save preferences, historique.
 /chrome/.config/chromium
 /chrome/.config/
 ```
->You need change folder right to chrome user.
+>You need change folder's right to chrome user.
