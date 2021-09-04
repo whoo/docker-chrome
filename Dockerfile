@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:11
 
 ENV Usr=chrome
 RUN apt-get update
