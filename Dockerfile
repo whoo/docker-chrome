@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:bullseye
 
 ENV Usr=chrome
 RUN apt-get update
